@@ -13,12 +13,12 @@ namespace sem01_Balboa
             int area = 0;
             int perimetro = 0;
 
-            Rectangulo rectangulo = new Rectangulo();
-            rectangulo.Base = 10;
-            rectangulo.Altura = 20;
+            Coordenadas coordenadas = new Coordenadas();
+            coordenadas.Base = 10;
+            coordenadas.Altura = 20;
 
-            area = rectangulo.CalcularArea();
-            perimetro = rectangulo.CalcularPerimetro();
+            area = coordenadas.CalcularArea();
+            perimetro = coordenadas.CalcularPerimetro();
 
             Console.WriteLine("El area es: ");
             Console.WriteLine(area);
@@ -47,8 +47,20 @@ namespace sem01_Balboa
             {
                 Nombres = "",
                 Apellidos = "",
-                CodigoEstudiante = "114306"
+                CodigoEstudiante = "114326"
             };
+
+
+            /*Coordenadas coordenadas = new Coordenadas();*/
+            coordenadas.Base = 10;
+            coordenadas.Altura = 20;
+            coordenadas.PuntoA = 0.0;
+            coordenadas.PuntoB = 0.8;
+            coordenadas.PuntoC = 4.8;
+            coordenadas.PuntoD = 4.0;
+
+
+
 
         }
     }

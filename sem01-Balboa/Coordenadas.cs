@@ -6,19 +6,31 @@ using System.Threading.Tasks;
 
 namespace sem01_Balboa
 {
-    internal class Rectangulo
+    public class Coordenadas
     {
         public int Base { get; set; }
         public int Altura { get; set; }
 
-        public int CalcularArea()
+        public double PuntoA { get; set; }
+
+        public double PuntoB { get; set; }
+
+        public double PuntoC { get; set; }
+
+        public double PuntoD { get; set; }
+
+
+        public int CalcularArea() //Obtener el Area
         {
             return Base * Altura;
         }
 
-        public int CalcularPerimetro() //funcion
+        public int CalcularPerimetro() //Obtener el perimetro
         {
             return 2 * (Base + Altura);
         }
+
+
+
     }
 }
