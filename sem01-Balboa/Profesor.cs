@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace sem01_Balboa
 {
-    public class Profesor
+    public class Profesor : Persona
     {
         public int Sueldo { get; set; }
     }

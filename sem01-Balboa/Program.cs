@@ -35,6 +35,21 @@ namespace sem01_Balboa
                 Apellidos = "Balboa",
             };
 
+
+            Profesor profesor = new Profesor
+            {
+                Nombres = "",
+                Apellidos = "",
+                Sueldo = 1200
+            };
+
+            Estudiante estudiante = new Estudiante
+            {
+                Nombres = "",
+                Apellidos = "",
+                CodigoEstudiante = "114306"
+            };
+
         }
     }
 }

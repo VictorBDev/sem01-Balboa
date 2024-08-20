@@ -15,6 +15,8 @@ namespace sem01_Balboa
             Apellidos = apellidos;
         }
 
+        public Persona() { }
+
         public string Nombres { get; set; }
         public string Apellidos { get; set; }
 
